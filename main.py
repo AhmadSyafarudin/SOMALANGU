@@ -139,6 +139,8 @@ shape_colors = [(0, 255, 0), (255, 0, 0), (0, 255, 255), (255, 255, 0), (255, 16
 
 
 class Piece(object):
+      rows = 20  # y
+    columns = 10  # x
     pass
 
 def create_grid(locked_positions={}):
